@@ -15,15 +15,17 @@
 
     You should have received a copy of the GNU General Public License 
     along with ulatencyd. If not, see http://www.gnu.org/licenses/.
+    
+    updated 2014 avrilpark madscience
 */
 
 #ifndef __ulatency_h__
 #define __ulatency_h__
 #include <glib.h>
 #include <gio/gio.h>
-#include <lua.h>
-#include <lualib.h>
-#include <lauxlib.h>
+#include <lua5.1/lua.h>
+#include <lua5.1/lualib.h>
+#include <lua5.1/lauxlib.h>
 #include <time.h>
 #include <stdint.h>
 #include <proc/procps.h>
